@@ -1,4 +1,4 @@
-<template>
+ <template>
 <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
   <div class="row">
   <div class="col-md-12">

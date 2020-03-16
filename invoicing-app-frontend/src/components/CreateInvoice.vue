@@ -148,7 +148,7 @@ onSubmit() {
   formData.append("user_id", this.$route.params.user.id);
   this.loading = "Creating Invoice, please wait ...";
   // Post to server
-  axios.post("http://localhost:3128/invoice", formData).then(res => {
+  axios.post("http://localhost:8085/invoice", formData).then(res => {
     // Post a status message
     this.loading = "";
     if (res.data.status == true) {
